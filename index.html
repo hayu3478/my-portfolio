@@ -1,116 +1,174 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>my portfolio</title>
-</head>
-<body>
-  <header class="header">
-        <nav class="navbar">
-            <a href="#home" class="logo">Port<span>folio.</span></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#home" class="logo">Port<span>folio.</span></a>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <section class="hero" id="home">
-        <div class="hero-content">
-            <p class="intro">HELLO, MY NAME IS</p>
-            <h1>Your <span>Name</span></h1>
-            <h2>I'm a Web Developer</h2>
+      <div class="hero-content">
+        <p class="intro">HELLO, MY NAME IS</p>
+        <h1>Your <span>Name</span></h1>
+        <h2>I'm a Web Developer</h2>
 
-            <p class="hero-description">
-                I create clean, modern, and responsive websites
-                using HTML and CSS. I enjoy turning creative
-                ideas into beautiful digital experiences.
-            </p>
+        <p class="hero-description">
+          I create clean, modern, and responsive websites using HTML and CSS. I
+          enjoy turning creative ideas into beautiful digital experiences.
+        </p>
 
-            <div class="hero-buttons">
-                <a href="#projects" class="btn primary-btn">View My Work</a>
-                <a href="#contact" class="btn secondary-btn">Contact Me</a>
-            </div>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary-btn">View My Work</a>
+          <a href="#contact" class="btn secondary-btn">Contact Me</a>
         </div>
+      </div>
 
-        <div class="hero-image">
-            <div class="image-circle">
-                <div class="profile-placeholder">YN</div>
-            </div>
-            <div class="floating-card">
-                <span>✦</span> Creative Developer
-            </div>
+      <div class="hero-image">
+        <div class="image-circle">
+          <div class="profile-placeholder">YN</div>
         </div>
+        <div class="floating-card"><span>✦</span> Creative Developer</div>
+      </div>
     </section>
-     <!-- About Section -->
+    <!-- About Section -->
     <section class="about section" id="about">
-        <div class="section-heading">
-            <p class="section-label">GET TO KNOW ME</p>
-            <h2>About <span>Me</span></h2>
+      <div class="section-heading">
+        <p class="section-label">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+      </div>
+      <div class="about-content">
+        <div class="about-card">
+          <span class="about-icon">✦</span>
+          <h3>Who I Am</h3>
+          <p>
+            I am a passionate aspiring web developer who loves learning new
+            technologies and building websites that look great on every screen.
+          </p>
         </div>
-        <div class="about-content">
-            <div class="about-card">
-                <span class="about-icon">✦</span>
-                <h3>Who I Am</h3>
-                <p>
-                    I am a passionate aspiring web developer who
-                    loves learning new technologies and building
-                    websites that look great on every screen.
-                </p>
-            </div>
-             <div class="about-text">
-                <h3>Turning ideas into reality.</h3>
-                <p>
-                    I focus on creating user-friendly web designs
-                    with simple layouts, attractive colors, and
-                    well-organized code. I am always looking for
-                    opportunities to improve my skills and grow
-                    as a developer.
-                </p>
-                <a href="#contact" class="text-link">Let's work together →</a>
-            </div>
+        <div class="about-text">
+          <h3>Turning ideas into reality.</h3>
+          <p>
+            I focus on creating user-friendly web designs with simple layouts,
+            attractive colors, and well-organized code. I am always looking for
+            opportunities to improve my skills and grow as a developer.
+          </p>
+          <a href="#contact" class="text-link">Let's work together →</a>
         </div>
+      </div>
     </section>
     <!-- Skills Section -->
     <section class="skills section" id="skills">
-        <div class="section-heading">
-            <p class="section-label">WHAT I WORK WITH</p>
-            <h2>My <span>Skills</span></h2>
+      <div class="section-heading">
+        <p class="section-label">WHAT I WORK WITH</p>
+        <h2>My <span>Skills</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon html-icon">5</div>
+          <h3>HTML5</h3>
+          <p>Building structured web pages.</p>
+          <div class="skill-bar">
+            <div class="skill-progress html-progress"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon css-icon">#</div>
+          <h3>CSS3</h3>
+          <p>Designing beautiful interfaces.</p>
+          <div class="skill-bar">
+            <div class="skill-progress css-progress"></div>
+          </div>
         </div>
 
-        <div class="skills-grid">
-            <div class="skill-card">
-                <div class="skill-icon html-icon">5</div>
-                <h3>HTML5</h3>
-                <p>Building structured web pages.</p>
-                <div class="skill-bar">
-                    <div class="skill-progress html-progress"></div>
-                </div>
-            </div>
-            <div class="skill-card">
-                <div class="skill-icon css-icon">#</div>
-                <h3>CSS3</h3>
-                <p>Designing beautiful interfaces.</p>
-                <div class="skill-bar">
-                    <div class="skill-progress css-progress"></div>
-                </div>
-            </div>
-
-            <div class="skill-card">
-                <div class="skill-icon responsive-icon">⌘</div>
-                <h3>Responsive Design</h3>
-                <p>Layouts for mobile and desktop.</p>
-                <div class="skill-bar">
-                    <div class="skill-progress responsive-progress"></div>
-                </div>
-            </div>
+        <div class="skill-card">
+          <div class="skill-icon responsive-icon">⌘</div>
+          <h3>Responsive Design</h3>
+          <p>Layouts for mobile and desktop.</p>
+          <div class="skill-bar">
+            <div class="skill-progress responsive-progress"></div>
+          </div>
         </div>
+      </div>
     </section>
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+      <div class="section-heading">
+        <p class="section-label">SOME THINGS I'VE CREATED</p>
+        <h2>My <span>Projects</span></h2>
+      </div>
 
-  
-</body>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual project-one">
+            <span class="project-number">01</span>
+            <span class="project-symbol">▤</span>
+          </div>
+          <div class="project-info">
+            <p class="project-type">WEB DESIGN</p>
+            <h3>Personal Portfolio</h3>
+            <p>
+              A stylish personal website to showcase skills, experience, and
+              achievements.
+            </p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual project-two">
+            <span class="project-number">02</span>
+            <span class="project-symbol">◈</span>
+          </div>
+          <div class="project-info">
+            <p class="project-type">LANDING PAGE</p>
+            <h3>Creative Landing Page</h3>
+            <p>
+              A clean landing page with an attractive layout and clear
+              call-to-action buttons.
+            </p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual project-three">
+            <span class="project-number">03</span>
+            <span class="project-symbol">✧</span>
+          </div>
+          <div class="project-info">
+            <p class="project-type">UI DESIGN</p>
+            <h3>Modern Product Page</h3>
+            <p>
+              A responsive product showcase with elegant typography and modern
+              styling.
+            </p>
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </body>
 </html>
