@@ -4,71 +4,74 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>my portfolio</title>
+    <link rel="stylesheet" href="./styel.css" />
   </head>
-  <body>
+<!-- DAY 2: HEADER AND NAVIGATION -->
     <header class="header">
-      <nav class="navbar">
-        <a href="#home" class="logo">Port<span>folio.</span></a>
-
-        <ul class="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+        <h1>My Personal Portfolio</h1>
+        <p>Programming | Teaching | Web Development</p>
     </header>
-    <section class="hero" id="home">
-      <div class="hero-content">
-        <p class="intro">HELLO, MY NAME IS</p>
-        <h1>Your <span>Name</span></h1>
-        <h2>I'm a Web Developer</h2>
 
-        <p class="hero-description">
-          I create clean, modern, and responsive websites using HTML and CSS. I
-          enjoy turning creative ideas into beautiful digital experiences.
-        </p>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-        <div class="hero-buttons">
-          <a href="#projects" class="btn primary-btn">View My Work</a>
-          <a href="#contact" class="btn secondary-btn">Contact Me</a>
-        </div>
-      </div>
+    <main>
 
-      <div class="hero-image">
-        <div class="image-circle">
-          <div class="profile-placeholder">YN</div>
-        </div>
-        <div class="floating-card"><span>✦</span> Creative Developer</div>
-      </div>
-    </section>
-    <!-- About Section -->
-    <section class="about section" id="about">
-      <div class="section-heading">
-        <p class="section-label">GET TO KNOW ME</p>
-        <h2>About <span>Me</span></h2>
-      </div>
-      <div class="about-content">
-        <div class="about-card">
-          <span class="about-icon">✦</span>
-          <h3>Who I Am</h3>
-          <p>
-            I am a passionate aspiring web developer who loves learning new
-            technologies and building websites that look great on every screen.
-          </p>
-        </div>
-        <div class="about-text">
-          <h3>Turning ideas into reality.</h3>
-          <p>
-            I focus on creating user-friendly web designs with simple layouts,
-            attractive colors, and well-organized code. I am always looking for
-            opportunities to improve my skills and grow as a developer.
-          </p>
-          <a href="#contact" class="text-link">Let's work together →</a>
-        </div>
-      </div>
-    </section>
-    
+        <!-- DAY 3: HERO SECTION -->
+        <section id="home" class="hero">
+
+            <div class="hero-content">
+
+                <h2>Welcome to My Portfolio</h2>
+
+                <h3>Hello, I'm Your Name</h3>
+
+                <p>
+                    I am passionate about programming,
+                    web development, technology, and
+                    software engineering.
+                </p>
+
+                <a href="#about" class="hero-btn">
+                    Explore My Portfolio
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- DAY 4: ABOUT ME SECTION -->
+        <section id="about" class="section about">
+
+            <h2>About Me</h2>
+
+            <img src="profile.jpg"
+                 alt="My Profile Picture"
+                 class="profile-img">
+
+            <p>
+                My name is Your Name. I am a passionate
+                programmer and web developer interested
+                in creating modern websites and software
+                applications.
+            </p>
+
+            <p>
+                I enjoy learning new technologies,
+                solving problems, and developing
+                creative digital solutions.
+            </p>
+
+        </section>
+  <body>
+
   </body>
 </html>

@@ -1,27 +1,165 @@
- * :root { 
-    --background: #0b0b12;
-    --surface: #14141f;
-    --surface-light: #1c1c2b;
-    --accent: #a78bfa;
-    --accent-light: #c4b5fd;
-    --text: #f5f3ff;
-    --muted: #aaa8bd;
-    --border: rgba(255, 255, 255, 0.09);
-}  .navbar {
-    max-width: 1400px;
-    margin: auto;
-    padding: 20px 8%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 25px; }
+ /* =====================================
+   DAY 1: GENERAL PAGE STYLING
+===================================== */
 
-    @media (max-width: 1000px) {.hero {
-        padding: 80px 6%;
-        gap: 35px;}
-        }
-    .section {
-    padding: 100px 8%;}
-    .about {
-    background: #101019;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* =====================================
+   DAY 2: HEADER AND NAVIGATION
+===================================== */
+
+.header {
+    background-color: #005747;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    border-bottom: 4px solid orange;
+}
+
+.header h1 {
+    font-size: 30px;
+}
+
+.header p {
+    font-size: 14px;
+}
+
+.navbar {
+    background-color: #245c99;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: yellow;
+}
+
+
+/* =====================================
+   DAY 3: HERO SECTION
+===================================== */
+
+.hero {
+    background: linear-gradient(
+        rgba(0, 40, 60, 0.75),
+        rgba(0, 40, 60, 0.75)
+    ), url("hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    min-height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1100px;
+}
+
+.hero-content {
+    color: white;
+    max-width: 700px;
+}
+
+.hero-content h2 {
+    font-size: 35px;
+}
+
+.hero-content h3 {
+    color: #ffd700;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.hero-content p {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.hero-btn {
+    display: inline-block;
+    background-color: #00a878;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero-btn:hover {
+    background-color: orange;
+    color: black;
+}
+
+
+/* =====================================
+   DAY 4: ABOUT ME SECTION
+===================================== */
+
+.section {
+    background-color: white;
+    max-width: 1100px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.section h2 {
+    color: #005747;
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00a878;
+    padding-bottom: 10px;
+}
+
+.about {
+    text-align: center;
+}
+
+.profile-img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #00a878;
+    margin: 15px;
+}
+
