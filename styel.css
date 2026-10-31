@@ -162,4 +162,15 @@ body {
     border: 5px solid #00a878;
     margin: 15px;
 }
+ DAY 5: PERSONAL INFORMATION
+===================================== */
+
+.personal-info ul {
+    list-style: none;
+}
+
+.personal-info li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
 
