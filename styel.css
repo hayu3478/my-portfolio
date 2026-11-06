@@ -57,4 +57,21 @@ a {
   font-weight: 800;
   letter-spacing: -0.04em;
 }
+.brand span,
+.hero h1 span {
+  color: var(--accent);
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: var(--accent);
+}
 
