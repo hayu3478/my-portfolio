@@ -84,3 +84,10 @@ a {
   padding-top: 70px;
   padding-bottom: 90px;
 }
+.eyebrow {
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
